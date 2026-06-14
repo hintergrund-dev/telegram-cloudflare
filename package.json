@@ -1,6 +1,6 @@
 {
   "name": "@hintergrund/telegram-cloudflare",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Telegram webhook helpers for Cloudflare Workers, designed to connect Telegram chats to serverless-pi.",
   "type": "module",
   "main": "./dist/index.js",
