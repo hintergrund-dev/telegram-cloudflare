@@ -1,0 +1,21 @@
+{
+  "name": "@hintergrund/telegram-message-board-worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250614.0",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.19.1"
+  },
+  "dependencies": {
+    "obscenity": "0.4.6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"name": "telegram-message-board",
+	"account_id": "889b58c3870264dc0293ede945dd6f50",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-06-14",
+	"workers_dev": false,
+	"observability": {
+		"enabled": true
+	},
+	"routes": [
+		{
+			"pattern": "telegram-cloudflare.hintergrund.dev",
+			"custom_domain": true
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "MESSAGES",
+			"id": "aacaddf21ec040d1ad746661f50151cc"
+		}
+	]
+}
